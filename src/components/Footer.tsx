@@ -17,7 +17,7 @@ export default function Footer() {
                         <Link href="/" className="flex items-center gap-3 group mb-6 inline-flex">
                             <div className="relative w-10 h-10 bg-white rounded-lg p-1">
                                 <Image
-                                    src="/logo_gtech.png"
+                                    src="/high-resolution-color-logo (2).png"
                                     alt="Gynetra Tech Solutions Logo"
                                     fill
                                     className="object-contain"

@@ -37,7 +37,7 @@ export default function Navbar() {
                 <Link href="/" className="flex items-center gap-3 group">
                     <div className="relative w-12 h-12 bg-white rounded-lg p-1">
                         <Image
-                            src="/logo_gtech.png"
+                            src="/high-resolution-color-logo (2).png"
                             alt="Gynetra Tech Solutions Logo"
                             fill
                             className="object-contain"
