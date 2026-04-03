@@ -13,7 +13,7 @@ export default function ContactSection() {
         e.preventDefault();
         const text = `Hello Gynetra Tech Solutions!\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
         const encodedText = encodeURIComponent(text);
-        window.open(`https://wa.me/628891903324?text=${encodedText}`, "_blank");
+        window.open(`https://wa.me/628216422141?text=${encodedText}`, "_blank");
     };
     return (
         <section id="contact" className="py-24 bg-slate-900 relative overflow-hidden">
