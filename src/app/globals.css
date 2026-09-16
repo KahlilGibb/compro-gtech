@@ -54,3 +54,29 @@ html {
     transform: translateY(0);
   }
 }
+
+@layer components {
+  .legal-content {
+    @apply space-y-5 leading-7;
+  }
+
+  .legal-content h2 {
+    @apply mt-9 text-xl font-bold text-blue-900;
+  }
+
+  .legal-content ul {
+    @apply list-disc space-y-3 pl-6;
+  }
+
+  .legal-content strong {
+    @apply font-semibold text-slate-900;
+  }
+
+  .legal-content a {
+    @apply font-semibold text-blue-700 underline decoration-blue-300 underline-offset-2;
+  }
+
+  .legal-note {
+    @apply rounded-xl border-l-4 border-blue-600 bg-blue-50 px-5 py-4;
+  }
+}
