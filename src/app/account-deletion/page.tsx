@@ -5,6 +5,9 @@ import LegalPage from "@/components/LegalPage";
 const deletionEmail = "gynetratechsolutions@gmail.com";
 const deletionSubject = "G Tech Auditor Account Deletion Request";
 const deletionMailto = `mailto:${deletionEmail}?subject=${encodeURIComponent(deletionSubject)}`;
+const deletionGmailCompose = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+  deletionEmail,
+)}&su=${encodeURIComponent(deletionSubject)}`;
 
 export const metadata: Metadata = {
   title: "Penghapusan Akun / Account Deletion — G Tech Auditor",
@@ -55,7 +58,9 @@ export default function AccountDeletionPage() {
           </p>
           <p>
             <a
-              href={deletionMailto}
+              href={deletionGmailCompose}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex rounded-lg bg-blue-900 px-4 py-2 font-semibold text-white no-underline hover:bg-blue-800"
             >
               Kirim permintaan melalui email
@@ -133,7 +138,9 @@ export default function AccountDeletionPage() {
           </p>
           <p>
             <a
-              href={deletionMailto}
+              href={deletionGmailCompose}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex rounded-lg bg-blue-900 px-4 py-2 font-semibold text-white no-underline hover:bg-blue-800"
             >
               Send a request by email
