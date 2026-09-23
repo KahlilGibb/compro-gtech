@@ -58,6 +58,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>Retensi dan penghapusan</h2>
         <p>Data akun disimpan selama akun masih diperlukan oleh organisasi. Data inspeksi disimpan sesuai kebutuhan operasional, kontrak pelanggan, keamanan, dan kewajiban hukum yang berlaku. Pengguna dapat meminta akses, koreksi, atau penghapusan data melalui administrator organisasinya atau melalui kontak di bawah. Data yang wajib dipertahankan karena alasan hukum atau keamanan akan dijelaskan saat permintaan diproses.</p>
+        <p><Link href="/account-deletion" className="font-semibold text-blue-900 underline">Lihat cara meminta penghapusan akun dan data G Tech Auditor.</Link></p>
 
         <h2>Anak-anak</h2>
         <p>G Tech Auditor ditujukan untuk pengguna profesional yang diberi akses oleh organisasi dan tidak ditujukan kepada anak-anak.</p>
@@ -93,6 +94,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>Retention and deletion</h2>
         <p>Account data is retained while the account is needed by the organization. Inspection data is retained according to operational needs, customer contracts, security, and applicable legal obligations. Users may request access, correction, or deletion through their organization administrator or the contact details below. Data that must be retained for legal or security reasons will be explained when a request is handled.</p>
+        <p><Link href="/account-deletion" className="font-semibold text-blue-900 underline">See how to request deletion of a G Tech Auditor account and data.</Link></p>
 
         <h2>Children</h2>
         <p>G Tech Auditor is intended for professional users authorized by their organization and is not directed to children.</p>
