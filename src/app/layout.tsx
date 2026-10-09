@@ -19,6 +19,10 @@ export const viewport: Viewport = {
 
 const defaultMetadata = {
   metadataBase: new URL("https://www.gynetratechsolutions.com"),
+  icons: {
+    icon: [{ url: "/icon", type: "image/png", sizes: "96x96" }],
+    shortcut: ["/icon"],
+  },
   title: {
     default: "Gynetra - IT Consultant & System Integration Solutions",
     template: "%s | Gynetra",
